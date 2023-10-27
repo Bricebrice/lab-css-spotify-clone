@@ -6,3 +6,165 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: normal;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00b172;
+  margin: 16px 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-right: 24px;
+}
+
+.background {
+  background-image: url("/images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100vh;
+  padding: 100px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background h1 {
+  margin-bottom: 16px;
+}
+
+.background p,
+.description p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.description {
+  padding: 40px 144px;
+  text-align: center;
+}
+
+.description-title {
+  border-bottom: 3px #00b172 solid;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.description-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 72px 0;
+}
+
+.description-items div {
+  width: 33.33%;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.description img {
+  width: 96px;
+}
+
+.instructions {
+  margin: 32px;
+  padding: 72px;
+  background-color: #00b172;
+  color: #fff;
+}
+
+.instructions h2 {
+  border-bottom: 3px #fff solid;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.instructions h3 {
+  color: #fff;
+}
+
+.instructions-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instructions-items > div,
+.instructions-items > img {
+  width: 33.33%;
+}
+
+.instruction-item {
+  margin: 32px 0;
+}
+
+.spotify-icon {
+  padding: 120px;
+}
+
+.spotify-app-image {
+  height: 100%;
+}
